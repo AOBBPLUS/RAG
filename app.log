@@ -1,0 +1,65 @@
+2026-09-07 15:41:49 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:41:49 - __main__ - INFO - 这是一个测试日志信息
+2026-09-07 15:41:49 - __main__ - WARNING - 这是一个测试警告信息
+2026-09-07 15:41:49 - __main__ - ERROR - 这是一个测试错误信息
+2026-09-07 15:42:15 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:42:15 - __main__ - INFO - 这是一个测试日志信息
+2026-09-07 15:42:15 - __main__ - WARNING - 这是一个测试警告信息
+2026-09-07 15:42:15 - __main__ - ERROR - 这是一个测试错误信息
+2026-09-07 15:47:26 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:48:01 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:48:01 - test_module1_config - INFO - 这是一个测试日志信息
+2026-09-07 15:48:01 - test_module1_config - WARNING - 这是一个测试警告信息
+2026-09-07 15:48:01 - test_module1_config - ERROR - 这是一个测试错误信息
+2026-09-07 15:48:38 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:48:38 - test_module1_config - INFO - 这是一个测试日志信息
+2026-09-07 15:48:38 - test_module1_config - WARNING - 这是一个测试警告信息
+2026-09-07 15:48:38 - test_module1_config - ERROR - 这是一个测试错误信息
+2026-09-07 15:49:02 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-07 15:49:03 - __main__ - INFO - 这是一个测试日志信息
+2026-09-07 15:49:03 - __main__ - WARNING - 这是一个测试警告信息
+2026-09-07 15:49:03 - __main__ - ERROR - 这是一个测试错误信息
+2026-09-08 15:55:39 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-08 15:55:39 - core.document_loader - INFO - 成功加载文件: d:\workspaceforPy\test\tests\sample_docs\test.docx， 原始文档书段数: 1
+2026-09-08 15:55:39 - core.document_loader - INFO - 成功分割文档: d:\workspaceforPy\test\tests\sample_docs\test.docx， 分割后的文档数: 27
+2026-09-08 15:57:36 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-08 15:57:36 - core.document_loader - INFO - 成功加载文件: d:\workspaceforPy\test\tests\sample_docs\test.docx， 原始文档书段数: 1
+2026-09-08 15:57:36 - core.document_loader - INFO - 成功分割文档: d:\workspaceforPy\test\tests\sample_docs\test.docx， 分割后的文档数: 27
+2026-09-08 16:16:06 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-08 16:16:06 - core.embedding - INFO - 从HuggingFace下载嵌入模型: bge_small_zh
+2026-09-08 16:16:23 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: bge_small_zh
+2026-09-08 16:16:33 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edc370>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 7ed92a98-5187-45fe-9600-b5aa3d28c2cc)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:16:33 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-09-08 16:16:44 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edc520>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 0c951c43-e43a-4ef0-a5a4-94f3898d9a4d)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:16:44 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-09-08 16:16:56 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edc6d0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 36a1cb7d-71ad-49b9-a872-533363626cc9)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:16:56 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-09-08 16:17:10 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edca00>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 161876af-a56c-4415-a4a7-c54abe317da8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:17:10 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-09-08 16:17:28 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edcd00>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: c32ff91a-6f66-4e95-94b4-16b8784ca369)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:17:28 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-09-08 16:17:46 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/modules.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edd000>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: b8d47bab-ccd3-4eb9-8884-1682959b35ab)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/modules.json
+2026-09-08 16:17:46 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name sentence-transformers/bge_small_zh. Creating a new one with mean pooling.
+2026-09-08 16:17:56 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/config.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425edd930>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 633369b5-7daf-4dba-896a-a7d94ba94787)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/config.json
+2026-09-08 16:17:56 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-09-08 16:18:07 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/config.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425eddc60>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: e3523ec1-5e5d-4cd8-a897-dfdd1641d00a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/config.json
+2026-09-08 16:18:07 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-09-08 16:18:19 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/config.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425e8ff40>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: e5d3a271-88ae-4894-bd93-85db94c9843f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/config.json
+2026-09-08 16:18:19 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-09-08 16:18:33 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/bge_small_zh/resolve/main/config.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='huggingface.co', port=443) at 0x1c425e8faf0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 4efe71ba-9bca-4509-9835-456a6f075c13)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/bge_small_zh/resolve/main/config.json
+2026-09-08 16:18:33 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-09-08 16:18:45 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-08 16:18:45 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforPy\test\models\bge_small_zh
+2026-09-08 16:18:56 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforPy\test\models\bge_small_zh
+2026-09-08 16:18:56 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-08 16:18:56 - core.document_loader - INFO - 成功加载文件: d:\workspaceforPy\test\tests\sample_docs\test.docx， 原始文档书段数: 1
+2026-09-08 16:18:56 - core.document_loader - INFO - 成功分割文档: d:\workspaceforPy\test\tests\sample_docs\test.docx， 分割后的文档数: 10
+2026-09-08 16:18:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-08 16:18:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-08 16:18:58 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforPy\test\vector_db
+2026-09-08 16:18:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-08 16:18:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-08 16:18:58 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforPy\test\vector_db
+2026-09-08 16:18:58 - core.vector_store - INFO - 向量库已清空
+2026-09-08 16:18:59 - core.vector_store - INFO - 成功添加 10 个文档到向量库
+2026-09-08 16:19:00 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
