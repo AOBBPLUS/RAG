@@ -60,8 +60,6 @@ def test_vectorstore():
     else:
         print("未找到相关文档")
 
-
-
 if __name__ == "__main__":
     test_embedding()
     test_vectorstore()
