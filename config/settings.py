@@ -8,67 +8,70 @@ Pydantic Settings 是一个用于管理应用程序配置的工具，它可以�
 
 最简单的理解，不设置的话，你需要再所有需要加载环境变量的文件中写代码，一处修改处处修改，很麻烦。
 """
+
 from pathlib import Path
 from typing import Literal
 from pydantic_settings import BaseSettings
+
 
 class Settings(BaseSettings):
     """
     配置管理类
     """
+
     # 项目基本配置
     PROJECT_NAME: str = "企业级RAG智能问答系统"
     PROJECT_VERSION: str = "1.0.0"
-    BASE_DIR : Path = Path(__file__).parent.parent.resolve()
+    BASE_DIR: Path = Path(__file__).parent.parent.resolve()
 
     # 数据目录
     DATA_DIR: Path = BASE_DIR / "data"
-    VECTOR_DB_DIR : Path = BASE_DIR / "vector_db"
-    MODELS_DIR : Path = BASE_DIR / "models"
-    UPLOAD_DIR : Path = BASE_DIR / "upload"
+    VECTOR_DB_DIR: Path = BASE_DIR / "vector_db"
+    MODELS_DIR: Path = BASE_DIR / "models"
+    UPLOAD_DIR: Path = BASE_DIR / "upload"
 
     # 向量库配置
-    VECTOR_STORE_TYPE : Literal["faiss", "chroma"] = "chroma"
-    EMBEDDING_MODEL_NAME : str = "bge_small_zh"
-    EMBEDDING_DEVICE : str = "cpu"      # 可以配置cuda
-    CHUNK_SIZE : int = 500
-    CHUNK_OVERLAP : int = 50
+    VECTOR_STORE_TYPE: Literal["faiss", "chroma"] = "chroma"
+    EMBEDDING_MODEL_NAME: str = "bge_small_zh"
+    EMBEDDING_DEVICE: str = "cpu"  # 可以配置cuda
+    CHUNK_SIZE: int = 500
+    CHUNK_OVERLAP: int = 50
 
     # 检索配置
-    SEARCH_TOP_K : int = 5
-    USE_RERANKER : bool = True
-    RERANKER_MODEL_NAME : str = "bge_reranker_base"
+    SEARCH_TOP_K: int = 5
+    USE_RERANKER: bool = True
+    RERANKER_MODEL_NAME: str = "bge_reranker_base"
 
     # LLM配置
-    LLM_PROVIDER : Literal["openai", "siliconflow", "ollama"] = "siliconflow"
+    LLM_PROVIDER: Literal["openai", "siliconflow", "ollama"] = "siliconflow"
 
     # ollama配置
-    OLLAMA_BASE_URL : str = "http://localhost:11434"
-    OLLAMA_MODEL_NAME : str = "qwen2.5:7b"
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
+    OLLAMA_MODEL_NAME: str = "qwen2.5:7b"
 
     # OpenAI配置
-    OPENAI_API_KEY : str = ""
-    OPENAI_BASE_URL : str = "https://api.openai.com/v1"
-    OPENAI_MODEL_NAME : str = "gpt-3.5-turbo"
+    OPENAI_API_KEY: str = ""
+    OPENAI_BASE_URL: str = "https://api.openai.com/v1"
+    OPENAI_MODEL_NAME: str = "gpt-3.5-turbo"
 
     # SiliconFlow配置
-    SILICONFLOW_API_KEY : str = ""
-    SILICONFLOW_BASE_URL : str = "https://api.siliconflow.cn/v1"
-    SILICONFLOW_MODEL_NAME : str = "Qwen/Qwen2.5-7B-Instruct"
+    SILICONFLOW_API_KEY: str = "sk-klbusoaahmiiuauthqhyroyrnpcanlebkcnbhzdxcchobpje"
+    SILICONFLOW_BASE_URL: str = "https://api.siliconflow.cn/v1"
+    SILICONFLOW_MODEL_NAME: str = "Qwen/Qwen2.5-7B-Instruct"
 
     # 服务配置
-    API_HOST : str = "localhost"
-    API_PORT : int = 8000
-    STREAMLIT_PORT : int = 8501
+    API_HOST: str = "localhost"
+    API_PORT: int = 8000
+    STREAMLIT_PORT: int = 8501
 
     # 日志配置
-    LOG_LEVEL : str = "INFO"
-    LOG_FILE : Path = BASE_DIR / "app.log"
+    LOG_LEVEL: str = "INFO"
+    LOG_FILE: Path = BASE_DIR / "app.log"
 
     # 安全配置
     # ALLOWED_ORIGINS : list[str] = ["*"]       # * 是允许所有的
-    ALLOWED_ORIGINS : list[str] = ["http://localhost:8501"]
-    SECRET_KEY : str = "your-secret-key"
+    ALLOWED_ORIGINS: list[str] = ["http://localhost:8501"]
+    SECRET_KEY: str = "your-secret-key"
 
     class Config:
         env_file = ".env"
@@ -80,5 +83,10 @@ class Settings(BaseSettings):
 settings = Settings()
 
 # 确保必要目录存在
-for dir_path in [settings.DATA_DIR, settings.VECTOR_DB_DIR, settings.MODELS_DIR, settings.UPLOAD_DIR]:
+for dir_path in [
+    settings.DATA_DIR,
+    settings.VECTOR_DB_DIR,
+    settings.MODELS_DIR,
+    settings.UPLOAD_DIR,
+]:
     dir_path.mkdir(parents=True, exist_ok=True)

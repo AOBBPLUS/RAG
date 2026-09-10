@@ -165,7 +165,7 @@ class VectorStoreManager:
 
 
 # 全局单例
-_vector_store_instance: VectorStoreManager = None
+_vector_store_instance = None
 
 
 def get_vector_store_manager() -> VectorStoreManager:
