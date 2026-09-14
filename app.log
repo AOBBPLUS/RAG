@@ -63,3 +63,111 @@
 2026-09-08 16:18:58 - core.vector_store - INFO - 向量库已清空
 2026-09-08 16:18:59 - core.vector_store - INFO - 成功添加 10 个文档到向量库
 2026-09-08 16:19:00 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-09 14:35:36 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-09 14:35:36 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-09 14:35:55 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-09 14:35:55 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-09 14:35:56 - core.document_loader - INFO - 成功加载文件: d:\workspaceforideal\RAG\tests\sample_docs\test.docx， 原始文档书段数: 1
+2026-09-09 14:35:56 - core.document_loader - INFO - 成功分割文档: d:\workspaceforideal\RAG\tests\sample_docs\test.docx， 分割后的文档数: 10
+2026-09-09 14:35:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-09 14:35:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-09 14:35:58 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
+2026-09-09 14:35:59 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-09 14:35:59 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-09 14:35:59 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
+2026-09-09 14:35:59 - core.vector_store - INFO - 向量库已清空
+2026-09-09 14:36:02 - core.vector_store - INFO - 成功添加 10 个文档到向量库
+2026-09-09 14:36:02 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:03:32 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-10 15:03:33 - core.llm_client - INFO - 已初始化大模型客户端: siliconflow
+2026-09-10 15:10:20 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-10 15:10:21 - core.llm_client - INFO - 已初始化大模型客户端: siliconflow
+2026-09-10 15:14:31 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-10 15:14:32 - core.llm_client - INFO - 已初始化大模型客户端: siliconflow
+2026-09-10 15:14:33 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-10 15:14:53 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-10 15:14:53 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-10 15:14:55 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:14:55 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:14:55 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
+2026-09-10 15:14:55 - core.retriever - ERROR - 创建Reranker的检索器时出错: 2 validation errors for CrossEncoderRetriever
+model_name
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+top_k
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+2026-09-10 15:14:56 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:24:33 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-10 15:24:33 - core.llm_client - INFO - 已初始化大模型客户端: siliconflow
+2026-09-10 15:24:34 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-10 15:24:47 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-10 15:24:47 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-10 15:24:48 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:24:48 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:24:48 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
+2026-09-10 15:24:48 - core.retriever - INFO - 从本地加载Reranker模型: D:\workspaceforideal\RAG\models\bge_reranker_base
+2026-09-10 15:24:48 - core.retriever - INFO - Reranker已初始化: bge_reranker_base
+2026-09-10 15:24:48 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-10 15:24:51 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2026-09-10 15:24:51 - core.retriever - INFO - 交叉编码器模型已初始化: D:\workspaceforideal\RAG\models\bge_reranker_base
+2026-09-14 14:36:44 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-14 14:36:44 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-14 14:36:57 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-14 14:36:57 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-14 14:36:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-14 14:36:58 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-14 14:36:58 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
+2026-09-14 14:37:39 - core.llm_client - INFO - 已初始化大模型客户端: siliconflow
+2026-09-14 14:37:39 - core.memory_manager - INFO - 记忆管理器初始化 window_size=5, session_ttl=60 minutes
+2026-09-14 14:37:39 - core.retriever - INFO - 从本地加载Reranker模型: D:\workspaceforideal\RAG\models\bge_reranker_base
+2026-09-14 14:37:39 - core.retriever - INFO - Reranker已初始化: bge_reranker_base
+2026-09-14 14:37:39 - core.rag_chain - INFO - 历史感知检索器创建完成
+2026-09-14 14:37:39 - core.rag_chain - INFO - RAG问答链创建成功
+2026-09-14 14:37:39 - core.rag_chain - INFO - RAG问答链初始化完成
+2026-09-14 14:37:39 - core.rag_chain - INFO - 意图识别: 你好
+2026-09-14 14:37:39 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-14 14:37:42 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2026-09-14 14:37:42 - core.retriever - INFO - 交叉编码器模型已初始化: D:\workspaceforideal\RAG\models\bge_reranker_base
+2026-09-14 14:37:49 - core.memory_manager - INFO - 创建新会话: aa34e54f-a912-4512-a203-a6cdc805fa5a
+2026-09-14 14:37:49 - core.memory_manager - INFO - 添加对话记录: 会话 aa34e54f-a912-4512-a203-a6cdc805fa5a, 用户: 你好, AI: 您好，请问有什么问题需要咨询吗？可以根据您提供的上下文信息，为您解答关于企业请假、调休、年假等相关规定的问题。
+2026-09-14 14:38:23 - core.rag_chain - INFO - 意图识别: 我怎么请假
+2026-09-14 14:38:31 - core.memory_manager - INFO - 添加对话记录: 会话 aa34e54f-a912-4512-a203-a6cdc805fa5a, 用户: 我怎么请假, AI: 请假时需要遵循以下步骤：
+
+1. **提交《请假申请表》**：提前提交请假申请，注明请假类型、请假起止时间、请假事由、工作交接人及交接内容，并提交相关证明材料（如病假需提交医疗证明、婚假需提交结婚证复印件等）。
+
+2. **审批流程**：
+   - **普通员工**：
+     - 请假1天（含）以内，由部门负责人审批。
+     - 请假1-3天（含），由部门负责人审核、人力资源部审批。
+     - 请假3天以上，由部门负责人审核、人力资源部复核、总经理审批。
+   - **部门负责人**：
+     - 请假1天（含）以内，由分管领导审批。
+     - 请假1天以上，由分管领导审核、总经理审批。
+   - **高管**：
+     - 请假无论天数，均由总经理审批。
+
+3. **工作交接**：请假前必须与工作交接人做好工作交接，明确交接内容、交接期限及相关注意事项，填写《工作交接单》，经交接双方及部门负责人签字确认后，方可离岗。
+
+4. **紧急情况**：紧急情况下（如突发疾病、紧急家事），员工可先电话报备部门负责人及人力资源部，事后24小时内补齐《请假申请表》及相关证明材料，逾期未补齐的，按旷工处理。
+
+请确保按照上述流程进行请假申请，以避免不必要的麻烦。
+2026-09-14 14:39:26 - core.rag_chain - INFO - 意图识别: 我刚才问了什么
+2026-09-14 14:39:32 - core.memory_manager - INFO - 添加对话记录: 会话 aa34e54f-a912-4512-a203-a6cdc805fa5a, 用户: 我刚才问了什么, AI: 您刚才问的是“我怎么请假”。根据您的问题，我已经为您提供了请假的具体步骤和流程。请按照以下步骤进行请假：
+
+1. 提交《请假申请表》，注明请假类型、请假起止时间、请假事由、工作交接人及交接内容，并提交相关证明材料。
+2. 按照审批权限进行审批：
+   - 普通员工：1天（含）以内由部门负责人审批；1-3天（含）由部门负责人审核、人力资源部审批；3天以上由部门负责人审核、人力资源部复核、总经理审批。
+   - 部门负责人：1天（含）以内由分管领导审批；1天以上由分管领导审核、总经理审批。
+   - 高管：无论天数均由总经理审批。
+3. 做好工作交接，填写《工作交接单》，经交接双方及部门负责人签字确认后，方可离岗。
+4. 紧急情况下可先电话报备，事后24小时内补齐《请假申请表》及相关证明材料，逾期未补齐按旷工处理。
+
+希望这些信息对您有所帮助。如果有其他问题，请随时提问。
+2026-09-14 14:46:47 - root - INFO - 日志系统初始化完成, 级别是 INFO
+2026-09-14 14:46:47 - core.embedding - INFO - 从本地加载嵌入模型: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-14 14:47:03 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: D:\workspaceforideal\RAG\models\bge_small_zh
+2026-09-14 14:47:03 - core.embedding - INFO - 嵌入模型已初始化: bge_small_zh
+2026-09-14 14:47:05 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-14 14:47:05 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-14 14:47:05 - core.vector_store - INFO - Chroma向量库已初始化，存储路径: D:\workspaceforideal\RAG\vector_db
